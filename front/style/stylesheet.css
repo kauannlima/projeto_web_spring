@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 50px 0;
+}
+
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 300px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+@media only screen and (min-width: 700px) {
+    .form-control{
+        width: 500px;
+    }
+  }
